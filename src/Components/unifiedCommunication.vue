@@ -30,7 +30,7 @@ const urls = [
             <div class="group relative h-20 w-auto">
                 <img class="group-hover" :src="MultiChannel" />
                 <div
-                    class="absolute bg-black/75 top-0 left-0 w-full h-auto opacity-0 group-hover:opacity-200 transition-opacity flex-col rounded-[16px] flex justify-center items-center pb-0 pt-10 pl-10 pr-10  ">
+                    class="absolute bg-black/75 top-0 left-0 w-full h-auto opacity-0 group-hover:opacity-200 transition-opacity flex-col rounded-[16px] flex justify-center items-center pb-0 pt-10 pl-10 pr-10">
                     <img class="self-start" height="150px" width="140px"
                         src="https://d1v4k1xgetr2r1.cloudfront.net/rd-cdn/2024/11/26071940/Artboard_3_copy.png" />
                     <p class="text-white mt-3 text-[19px]">

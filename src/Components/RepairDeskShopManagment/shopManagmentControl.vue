@@ -43,7 +43,7 @@ const currentIndex = ref(0);
 </script>
 
 <template>
-    <div class="h-240 w-full bg-[#FAF9E3]">
+    <div class="min-h-[240] max-h-auto w-full bg-[#FAF9E3]">
         <!-- hoverable container -->
         <div class="flex flex-col justify-center">
             <h1 class="text-center text-[42px] text-[#333333] font-[500] mt-13 mb-8">Repair Shop Managment Control

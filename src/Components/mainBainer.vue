@@ -19,7 +19,7 @@ import Zaiper from '@/assets/zaiper.png';
 <template>
 
     <div>
-        <div class="h-150 bg-[#134E4A]">
+        <div class="min-h-150 bg-[#134E4A]">
             <div class="flex flex-row p-12 h-40 w-[100%]">
                 <div class="flex w-[80%] flex-col mt-30">
                     <div class="flex flex-row w-[650px] h-auto p-2">
