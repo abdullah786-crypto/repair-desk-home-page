@@ -76,7 +76,7 @@ const urls = [
                         </svg>
                         <p class="text-white text-[15px] font-normal">Respond to Google Reviews</p>
                     </div>
-                    <button class="bg-[#134E4A] text-white font-semibold rounded-[26px] self-start mb-5 p-4 mt-5">Learn
+                    <button class="cursor-pointer bg-[#134E4A] w-35 hover:scale-110 transition delay-150 duration-300 ease-in-out text-white font-semibold rounded-[26px] self-start mb-7 p-3 mt-5">Learn
                         More</button>
                 </div>
             </div>
@@ -130,7 +130,7 @@ const urls = [
                         </svg>
                         <p class="text-white text-[15px]">Port in your existing number</p>
                     </div>
-                    <button class="bg-[#134E4A] text-white font-semibold rounded-[26px] self-start mb-5 p-4 mt-5">Learn
+                    <button class="cursor-pointer bg-[#134E4A] w-35 hover:scale-110 transition delay-150 duration-300 ease-in-out text-white font-semibold rounded-[26px] self-start mb-7 p-3 mt-5">Learn
                         More</button>
                 </div>
             </div>
@@ -184,12 +184,10 @@ const urls = [
                         </svg>
                         <p class="text-white text-[15px]">Auto-fill information for appointments</p>
                     </div>
-                    <button class="bg-[#134E4A] text-white font-semibold rounded-[26px] self-start mb-5 p-4 mt-5">Learn
+                    <button class="cursor-pointer bg-[#134E4A] w-35 hover:scale-110 transition delay-150 duration-300 ease-in-out text-white font-semibold rounded-[26px] self-start mb-10 p-3 mt-5">Learn
                         More</button>
                 </div>
             </div>
         </div>
-        
     </div>
-
 </template>

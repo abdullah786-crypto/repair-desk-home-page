@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from 'vue';
-import ShopManagment from '@/view/shop-managment.vue';
+import ShopManagment from '@/Components/RepairDeskShopManagment/shop-managment.vue';
 
 
 const iconsList = ref([

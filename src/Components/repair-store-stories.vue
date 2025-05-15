@@ -8,13 +8,15 @@ const urls = ['https://cdn-ilcmnof.nitrocdn.com/fjAenfxwewwtFTNxMybfKqbnqdiodkyH
 <template>
     <h1 class="text-[#333333] text-4xl text-center font-semibold mt-40 mb-20">Trusted by More Than 3,000+ Repair Stores
     </h1>
-    <Carousel :value="urls" :num-visible="2" :num-scroll="1" circular :autoplayInterval="9000">
-        <template #item="slotProps">
-            <div>
-                <div class="flex pl-20 flex-row justify-center">
-                    <img class="rounded-3xl w-full shadow-md" :src="slotProps.data" />
+    <div class="ml-40 mr-40 mb-30">
+        <Carousel :value="urls" :num-visible="2" :num-scroll="1" circular :autoplayInterval="9000">
+            <template #item="slotProps">
+                <div>
+                    <div class="flex flex-row ml-10 justify-center">
+                        <img class="w-full rounded-3xl w-full shadow-md" :src="slotProps.data" />
+                    </div>
                 </div>
-            </div>
-        </template>
-    </Carousel>
+            </template>
+        </Carousel>
+    </div>
 </template>

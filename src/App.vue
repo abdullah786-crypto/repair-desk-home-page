@@ -1,11 +1,13 @@
 <script setup>
 
 import Header from './layout/header.vue';
-import MainBainer from './view/mainBainer.vue';
-import RepairIndustries from './view/repair-industries.vue';
-import RepairStoreStories from './view/repair-store-stories.vue';
-import ShopManagmentControl from './view/shopManagmentControl.vue';
-import UnifiedCommunication from './view/unifiedCommunication.vue';
+import FreeTrailBanner from './Components/free-trail-banner.vue';
+import MainBainer from './Components/mainBainer.vue';
+import RepairIndustries from './Components/repair-industries.vue';
+import RepairStoreStories from './Components/repair-store-stories.vue';
+import ShopManagmentControl from './Components/RepairDeskShopManagment/shopManagmentControl.vue';
+import UnifiedCommunication from './Components/unifiedCommunication.vue';
+import Footer from './layout/footer.vue';
 
 const urls = [
     'https://cdn-ilcmnof.nitrocdn.com/fjAenfxwewwtFTNxMybfKqbnqdiodkyH/assets/images/source/rev-596e9ce/d1v4k1xgetr2r1.cloudfront.net/rd-cdn/2024/12/26111436/3-2.png',
@@ -34,4 +36,6 @@ const urls = [
     </div>
     <RepairIndustries />
     <RepairStoreStories />
+    <FreeTrailBanner />
+    <Footer />
 </template>

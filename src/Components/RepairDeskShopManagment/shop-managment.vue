@@ -19,6 +19,6 @@ const props = defineProps(['title', 'img', 'description'])
         </div>
     </div>
     <div class="flex flex-row justify-center">
-        <button class="mt-15 bg-[#134E4A] p-3 text-white font-semibold rounded-[30px] w-34 self-center">Get Started</button>
+        <button class="mt-15 bg-[#134E4A] p-3 text-white font-semibold hover:scale-115 transition delay-150 duration-300 ease-in-out cursor-pointer rounded-[30px] w-34 self-center">Get Started</button>
     </div>
 </template>
