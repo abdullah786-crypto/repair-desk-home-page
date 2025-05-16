@@ -18,21 +18,27 @@ const urls = [
     'https://cdn-ilcmnof.nitrocdn.com/fjAenfxwewwtFTNxMybfKqbnqdiodkyH/assets/images/source/rev-596e9ce/d1v4k1xgetr2r1.cloudfront.net/rd-cdn/2024/12/26111542/TrustPilot-Badge.png',
 ]
 
-
 </script>
 
 <template>
     <Header />
     <MainBainer />
     <ShopManagmentControl />
+    <template>
+        <div class="bg-red-500 xs:bg-green-500 sm:bg-blue-500 text-white p-4">
+            Resize screen and observe background color
+        </div>
+    </template>
     <UnifiedCommunication />
-    <div class="mt-120 gap-20 ml-50 mb-20 flex flex-row h-32 overflow-x-auto">
-        <img class="cursor-pointer flex-shrink-0 h-full" :src="urls[0]" alt="Failed to load image">
-        <img class="cursor-pointer flex-shrink-0 h-full" :src="urls[1]" alt="Failed to load image">
-        <img class="cursor-pointer flex-shrink-0 h-full" :src="urls[2]" alt="Failed to load image">
-        <img class="cursor-pointer flex-shrink-0 h-full" :src="urls[3]" alt="Failed to load image">
-        <img class="cursor-pointer flex-shrink-0 h-full" :src="urls[4]" alt="Failed to load image">
-        <img class="cursor-pointer flex-shrink-0 h-full" :src="urls[5]" alt="Failed to load image">
+    <div class="flex flex-row w-full justify-center">
+        <div class="mt-30 gap-20 mb-20 flex w-full max-w-[1600px] 2xl:mb-20 xl:mb-20 lg:mb-65 md:mb-65 sm:mb-65 flex-wrap flex-row justify-center h-32">
+            <img class="cursor-pointer flex-shrink-0 h-full" :src="urls[0]" alt="Failed to load image">
+            <img class="cursor-pointer flex-shrink-0 h-full" :src="urls[1]" alt="Failed to load image">
+            <img class="cursor-pointer flex-shrink-0 h-full" :src="urls[2]" alt="Failed to load image">
+            <img class="cursor-pointer flex-shrink-0 h-full" :src="urls[3]" alt="Failed to load image">
+            <img class="cursor-pointer flex-shrink-0 h-full" :src="urls[4]" alt="Failed to load image">
+            <img class="cursor-pointer flex-shrink-0 h-full" :src="urls[5]" alt="Failed to load image">
+        </div>
     </div>
     <RepairIndustries />
     <RepairStoreStories />

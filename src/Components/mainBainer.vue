@@ -19,44 +19,45 @@ import Zaiper from '@/assets/zaiper.png';
 <template>
 
     <div>
-        <div class="min-h-150 bg-[#134E4A]">
-            <div class="flex flex-row p-12 h-40 w-[100%]">
-                <div class="flex w-[80%] flex-col mt-30">
-                    <div class="flex flex-row w-[650px] h-auto p-2">
-                        <h1
-                            class="text-wrap font-serif text-5xl font-bold bg-gradient-to-r from-amber-300 to-white text-transparent bg-clip-text">
-                            All-in-One
-                        </h1>
-                        <h1 class="font-serif text-5xl font-bold text-white"> &nbsp;Repair Shop</h1>
-                    </div>
-                    <h1 class="w-[650px] font-serif text-5xl font-bold text-white">&nbsp;Management Software</h1>
-                    <p class="w-[650px] text-white text-[18px] mt-5">#1 Cloud-based Point of Sale Repair Shop Software
-                        and
-                        Unified Communication Ecosystem to manage and grow your Repair Business.</p>
-                    <div class="mt-10 flex gap-5 flex-row">
-                        <button
-                            class="transition delay-150 duration-300 ease-in-out text-[15px] h-auto text-[#134E4A] cursor-pointer p-[10px] w-[170px] bg-white rounded-[30px] font-semibold hover:scale-110">Start
-                            My Free Trail</button>
-                        <button
-                            class="transition delay-150 duration-300 ease-in-out border-white h-auto text-white w-[120px] p-[10px] font-semibold cursor-pointer rounded-[30px] bg-transparent border-1 hover:scale-110">See
-                            Pricing</button>
-                    </div>
-                </div>
-                <!-- for image -->
-                <div class="h-auto w-[20%] w-full">
-                    <img class="h-[750%] w-full"
-                        src="https://d1v4k1xgetr2r1.cloudfront.net/rd-cdn/2024/11/26071944/2e23d752b0a445840ceb41b9f98d9772.webp" />
-                </div>
-            </div>
+        <div class="w-full flex justify-center bg-[#134E4A] py-10">
+  <div class="flex flex-col xl:flex-row p-12 w-full max-w-[1600px]">
+    <!-- Left side -->
+    <div class="w-full xl:w-1/2 flex flex-col">
+      <div class="flex flex-wrap p-2">
+        <h1 class="font-serif text-5xl font-bold bg-gradient-to-r from-amber-300 to-white text-transparent bg-clip-text">
+          All-in-One
+        </h1>
+        <h1 class="font-serif text-5xl font-bold text-white">&nbsp;Repair Shop</h1>
+      </div>
+      <h1 class="font-serif text-5xl font-bold text-white">&nbsp;Management Software</h1>
+      <p class="text-white text-[18px] mt-5">
+        #1 Cloud-based Point of Sale Repair Shop Software and Unified Communication Ecosystem to manage and grow your Repair Business.
+      </p>
+      <div class="mt-10 flex gap-5">
+        <button class="transition duration-300 text-[15px] text-[#134E4A] p-[10px] w-[170px] bg-white rounded-full font-semibold hover:scale-110">
+          Start My Free Trial
+        </button>
+        <button class="transition duration-300 border-white text-white w-[120px] p-[10px] font-semibold rounded-full border hover:scale-110">
+          See Pricing
+        </button>
+      </div>
+    </div>
 
-        </div>
+    <!-- Right side (image) -->
+    <div class="w-full xl:w-1/2 mt-10 xl:mt-0">
+      <img class="w-full h-auto" src="https://d1v4k1xgetr2r1.cloudfront.net/rd-cdn/2024/11/26071944/2e23d752b0a445840ceb41b9f98d9772.webp" />
+    </div>
+  </div>
+</div>
+
         <div class="flex flex-row p-15 text-center w-full h-auto items-center justify-center">
             <p class="text-[#404040] text-[18px] font-medium font-sans">Powered by a Suite of 40+ Integrated Partners
             </p>
         </div>
-        <div
-            class="flex gap-10 flex-row no-scrollbar whitespace-nowrap overflow-hidden .no-scrollbar pb-10 overflow-x-auto h-auto w-full pl-10 pr-10 h-31 mx-10px h-25">
-            <div class="gap-10 flex flex-row animate-scroll-left">
+        <div class="w-full flex flex-row justify-center">
+            <div
+            class="flex gap-10 w-full max-w-[1600px] flex-row no-scrollbar whitespace-nowrap overflow-hidden .no-scrollbar pb-10 h-auto w-full pl-10 pr-10 h-31 mx-10px h-25">
+            <div class="gap-10 whitespace-nowrap flex flex-row animate-scroll-left">
                 <img class="w-72 h-17" :src="InjuredGadgers" />
                 <img :src="M360" class="w-72 h-17" />
                 <img :src="MobileNZO" class="w-30 h-7 mt-5" />
@@ -71,6 +72,7 @@ import Zaiper from '@/assets/zaiper.png';
                 <img :src="Xero" class="w-60 h-14 mt-3" />
                 <img :src="Zaiper" class="w-60 h-15 mt-4" />
             </div>
+        </div>
         </div>
         
     </div>
