@@ -1,6 +1,12 @@
 <script setup>
 import Carousel from 'primevue/carousel'
 import { ref } from 'vue'
+import { useMediaQuery } from '@vueuse/core'
+
+const isSmallScreen = useMediaQuery('(min-width: 550px) and (max-width: 639px)')
+const isMoreSmallScreen = useMediaQuery('(min-width: 400px) and (max-width: 549px)')
+const fullSmallScreen = useMediaQuery('(min-width: 200px) and (max-width: 399px)')
+
 
 const products = ref([
   {
@@ -77,7 +83,7 @@ const autoplayInterval = 4000
 </script>
 
 <template>
-  <div class="bg-[#FAF9E3] py-16 px-4">
+  <div :style="{marginTop: isSmallScreen ? '30%' : isMoreSmallScreen ? '85%' : fullSmallScreen ? '300%' : '60px'}" class="bg-[#FAF9E3] mt-auto py-16 px-4">
     <h1 class="text-5xl text-center font-semibold text-[#404040] mb-6">Industries We Serve</h1>
     <p class="text-[#333333] text-[21px] mb-10 text-center max-w-4xl mx-auto">
       RepairDesk offers total repair control with an end-to-end workflow tailored for your entire repair business in one place.
@@ -96,7 +102,7 @@ const autoplayInterval = 4000
             <img
               :src="slotProps.data.image"
               alt="Product Image"
-              class="rounded-3xl w-full max-w-[320px] h-[280px] object-cover mb-6"
+              class="rounded-3xl w-full h-[280px] object-cover mb-6"
             />
             <h4 class="text-2xl font-bold text-[#333333] mb-4">{{ slotProps.data.name }}</h4>
             <p class="text-[#333333] text-lg">{{ slotProps.data.description }}</p>

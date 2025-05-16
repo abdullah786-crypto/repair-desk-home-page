@@ -17,13 +17,13 @@ module.exports = {
         "6xl": "3100px",
       },
       keyframes: {
-        scroll: {
-          "0%": { transform: "translateX(100%)" },
-          "100%": { transform: "translateX(-100%)" },
+         scroll: {
+          '0%': { transform: 'translateX(0%)' },
+          '100%': { transform: 'translateX(-50%)' },
         },
       },
       animation: {
-        scroll: "scroll 20s linear infinite",
+        scroll: "scroll 30s linear infinite",
       },
     },
   },

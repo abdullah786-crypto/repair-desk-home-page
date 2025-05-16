@@ -32,9 +32,11 @@ const urls = [
                     <img style="height: fit-content;" class="group-hover" :src="MultiChannel" />
                     <div
                         class="absolute h-[285%] bg-black/75 top-0 left-0 w-full opacity-0 group-hover:opacity-200 transition-opacity flex-col rounded-[16px] flex justify-center items-center pb-0 pt-10 pl-10 pr-10">
-                        <img height="20%" width="50%" class="self-start h-[150px] 2xl:h-[150px] xl:h-[120px] md:h-[120px] sm:h-[90px] w-[150px] 2xl:w-[150px] xl:w-[120px] md:w-[120px] sm:w-[90px]"
+                        <!-- <img class="self-start h-[100px] 2xl:h-[100px] xl:h-[80px] md:h-[80px] sm:h-[60px] w-[100px] 2xl:w-[100px] xl:w-[80px] md:w-[80px] sm:w-[60px]"
+                            src="https://d1v4k1xgetr2r1.cloudfront.net/rd-cdn/2024/11/26071940/Artboard_3_copy.png" /> -->
+                        <img class="self-start" height="250px" width="250px"
                             src="https://d1v4k1xgetr2r1.cloudfront.net/rd-cdn/2024/11/26071940/Artboard_3_copy.png" />
-                        <p class="text-white sm:mt-0 md:mt-0 mt-3 text-[19px] md:text-[12px] sm:text-[10px] xl:text-[14px]">
+                            <p class="text-white sm:mt-0 md:mt-0 mt-3 text-[19px] md:text-[12px] sm:text-[10px] xl:text-[14px]">
                             One inbox for multi-channel communication and review management
                         </p>
                         <div class="flex flex-row gap-2 sm:mt-2 md:mt-2 w-full mt-5 items-center justify-start">
@@ -78,7 +80,7 @@ const urls = [
                             <p class="text-white text-[15px] xl:text-[12px] lg:text-[10px] md:text-[8px] sm:text-[8px] font-normal">Respond to Google Reviews</p>
                         </div>
                         <button
-                            class="cursor-pointer bg-[#134E4A] w-35 hover:scale-110 transition delay-150 duration-300 ease-in-out text-white font-semibold rounded-[26px] self-start mb-7 md:p-0 sm:p-0 p-3 mt-5">Learn
+                            class="cursor-pointer bg-[#134E4A] w-35 hover:scale-110 transition delay-150 duration-300 ease-in-out text-white font-semibold rounded-[26px] self-start mb-7 p-2 mt-5">Learn
                             More</button>
                     </div>
                 </div>
@@ -87,9 +89,13 @@ const urls = [
                     <img style="height: fit-content;" class="group-hover" :src="IntegratedPhoneSystem" />
                     <div
                         class="absolute h-[285%] bg-black/75 top-0 left-0 w-full opacity-0 group-hover:opacity-200 transition-opacity flex-col rounded-[16px] flex justify-center items-center pb-0 pt-10 pl-10 pr-10  ">
-                        <img class="self-start h-[150px] 2xl:h-[150px] xl:h-[120px] md:h-[120px] sm:h-[90px] w-[150px] 2xl:w-[150px] xl:w-[120px] md:w-[120px] sm:w-[90px]" 
+                        <!-- <img class="self-start h-[150px] 2xl:h-[150px] xl:h-[120px] md:h-[120px] sm:h-[90px] w-[150px] 2xl:w-[150px] xl:w-[120px] md:w-[120px] sm:w-[90px]" 
+                            src="https://d1v4k1xgetr2r1.cloudfront.net/rd-cdn/2024/11/26071940/Artboard_1_copy.png" /> -->
+                        
+                            <img class="self-start" height="250px" width="250px"
                             src="https://d1v4k1xgetr2r1.cloudfront.net/rd-cdn/2024/11/26071940/Artboard_1_copy.png" />
-                        <p class="text-white sm:mt-0 md:mt-0 mt-3 md:text-[12px] sm:text-[10px] xl:text-[14px] text-[19px]">
+                        
+                            <p class="text-white sm:mt-0 md:mt-0 mt-3 md:text-[12px] sm:text-[10px] xl:text-[14px] text-[19px]">
                             Integrated phone system for taking more calls and booking more jobs
                         </p>
                         <div class="flex flex-row gap-2 w-full sm:mt-2 md:mt-2 mt-5 items-center justify-start">
